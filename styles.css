@@ -1,0 +1,36 @@
+h1 {
+  color:rgb(28, 121, 215);
+  text-align: center;
+}
+body {
+  background: linear-gradient(109.6deg, rgb(204, 228, 247) 11.2%, rgb(237, 246, 250) 100.2%);
+}
+h2 {
+  color:rgb(28, 121, 215);
+  text-align: center;
+}
+
+.first-row {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 30px;
+}
+
+.second-row {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 50px;
+}
+.image:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+  filter: brightness(90%);
+}
+.image {
+  width:300px;
+  height:300px;
+  border-radius: 50%;
+  mix-blend-mode: multiply;
+}
